@@ -1,0 +1,24 @@
+body{
+	width: 1280px;
+	height: 2760px;
+	background-color: #ffffff;
+}
+.block1-text h4{
+font-family: "Times New Roman", sans-serif;
+font-size: 21px;
+line-height: 21px;
+color: #ffffff;
+
+}
+.block1-text p{
+font-family: "Times New Roman", sans-serif;
+font-size: 14px;
+line-height: 21px;
+color: #ffffff;
+}
+.information2 h3{
+ font-family: "Times New Roman", sans-serif;
+font-size: 30px;
+line-height: 24px;
+color: #000000;	
+}
