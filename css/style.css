@@ -1,24 +1,278 @@
+@import url(reset.css);
 body{
 	width: 1280px;
 	height: 2760px;
-	background-color: #ffffff;
+	background-color: #f2f2f2;
 }
-.block1-text h4{
-font-family: "Times New Roman", sans-serif;
-font-size: 21px;
-line-height: 21px;
-color: #ffffff;
+a{
+	font-family: "Times New Roman", Georgia, serif;
+	font-style: bold;
+	font-size: 14px;
+	line-height: 26px;
+	color:#000000;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+.main-header{
+	width: 1200px;
+	height: 56px;
+	background: #ffffff;
+	margin:0 auto;
+	overflow: hidden;
+}
+.main-navigation ul li{
+	float:left;
+	margin-right: 65px;
+	margin-left: 65px;
+	margin-top: 18px;
+	margin-bottom: 20px;
+}
+.logo{
+	width: 138px;
+	height: 70px;
+	position: absolute;
+	top:0;
+}
+.panorama{
+	width: 1200px;
+	height: 807px;
+	margin: 0 auto;
+}
+.panorama-img{
+	height: 547px;
+	margin-bottom: 60px;
+}
+.information {
+
+	text-align: center;
+	margin: 0 auto; 
+	margin-top: 60px;
+}
+.information h2{
+	font-size: 21px;
+	line-height: 26px;
+	color: #000000;
+	font-weight: bold;
+	text-transform: uppercase;
+	
+}
+.information p{
+	font-size: 14px;
+	line-height: 26px;
+	color: #333333;
+	text-transform: uppercase;
+	margin-bottom: 60px;
+}
+.block{
+	width: 1200px;
+	background-color: #ffffff;
+	margin:0 auto;
 
 }
+
+.block1-text{
+	width: 400px;
+	height: 255px;
+	background-color: #81b3d2;
+	float: left;
+	text-align: center;
+}
+
+.block1-text h4{
+	background-color: #81b3d2;
+	font-size: 21px;
+	line-height: 21px;
+	color: #ffffff;
+	text-transform: uppercase;
+	padding-top: 50px;
+}
 .block1-text p{
-font-family: "Times New Roman", sans-serif;
-font-size: 14px;
-line-height: 21px;
-color: #ffffff;
+	background-color: #81b3d2;
+	font-size: 14px;
+	line-height: 21px;
+	color: #ffffff;
+	text-transform: uppercase;
+	padding: 15px;
 }
-.information2 h3{
- font-family: "Times New Roman", sans-serif;
-font-size: 30px;
-line-height: 24px;
-color: #000000;	
+.block1-img{
+	float:left;
+	width: 800px;
+	height: 255px;
 }
+.block2{
+	text-transform: uppercase;
+}
+.block2-home img{
+	padding-top: 57px;
+	padding-bottom: 30px;
+
+}
+.block2-home h4{
+	font-size: 21px;
+	line-height: 21px;
+	color: #000000;
+	padding-bottom: 25px;
+	font-weight: bold;
+}
+.block2-home p{
+	font-size: 14px;
+	line-height: 21px;
+	color:#333333;
+}
+
+
+.block2-food img{
+	padding-top: 57px;
+	padding-bottom: 30px;
+
+}
+.block2-food h4{
+	font-size: 21px;
+	line-height: 21px;
+	color: #000000;
+	padding-bottom: 25px;
+	font-weight: bold;
+}
+.block2-food p{
+	font-size: 14px;
+	line-height: 21px;
+	color:#333333;
+}
+
+.block2-souvenirs img{
+	padding-top: 57px;
+	padding-bottom: 30px;
+
+}
+.block2-souvenirs h4{
+	font-size: 21px;
+	line-height: 21px;
+	color: #000000;
+	padding-bottom: 25px;
+	font-weight: bold;
+}
+.block2-souvenirs p{
+	font-size: 14px;
+	line-height: 21px;
+	color:#333333;
+}
+.block2{
+	
+	text-align: center;
+
+}
+.block2-home{
+	width: 400px;
+	height: 330px;
+	float: left;
+}
+.block2-food{
+	width: 400px;
+	height: 330px;
+	float: left;
+}
+.block2-souvenirs{
+	float: left;
+	width: 400px;
+	height: 330px;
+}
+.block3-text{
+	width: 400px;
+	height: 255px;
+	background-color: #81b3d2;
+	float: left;
+	text-align: center;
+}
+
+.block3-text h2{
+	padding-top: 50px;
+	background-color: #81b3d2;
+	font-size: 21px;
+	line-height: 21px;
+	color: #ffffff;
+	text-transform: uppercase;
+}
+.block3-text p{
+	padding-top: 25px;
+	background-color: #81b3d2;
+	font-size: 14px;
+	line-height: 21px;
+	color: #ffffff;
+	text-transform: uppercase;
+}
+.block3-img{
+	float:left;
+	width: 800px;
+	height: 255px;
+}
+.block4{
+	text-align: center;
+	padding-top: 50px;
+}
+.block4 p{
+	padding-top: 30px;
+	text-transform: uppercase;
+}
+.block4 h4{
+	font-size: 21px;
+	line-height: 21px;
+	color: #000000;
+	font-weight: bold;
+}
+.block4 p{
+	font-size: 14px;
+	line-height: 21px;
+	color:#333333;
+}
+.block4-area{
+	background-color: #eeeeee;
+	padding-top: 50px;
+	width: 400px;
+	height: 255px;
+	float: left;
+}
+.block4-road{
+	background-color: #eeeeee;
+	padding-top: 50px;
+	width: 400px;
+	height: 255px;
+	float: left;
+}
+.block4-tourists{
+	background-color: #eeeeee;
+	padding-top: 50px;
+	float: left;
+	width: 400px;
+	height: 255px;
+
+}
+.information2 {
+	padding-top: 50px;
+	text-align: center;
+	background-color: #ffffff;
+	width: 1200px;
+	height: 290px;
+}
+form{
+	
+	width:575px;
+	height: 475px;
+	margin-left: 325px;
+	background-color: #ffffff;
+	margin-top: -75px;
+}
+legend{
+	height: 85px;
+	background-color: #766357;
+	margin-top: -55px;
+}
+form p{
+	padding-top: 50px;
+}
+button{
+	width: 460px;
+	height: 60px;
+	background-color: #81b3d2;
+	margin-top: 60px;
+}
+
