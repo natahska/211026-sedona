@@ -1,7 +1,7 @@
 @import url(reset.css);
 body{
 	width: 1280px;
-	height: 2760px;
+	
 	background-color: #f2f2f2;
 }
 a{
@@ -247,12 +247,26 @@ a{
 
 }
 .information2 {
-	padding-top: 50px;
+	
 	text-align: center;
 	background-color: #ffffff;
 	width: 1200px;
-	height: 290px;
+	height: 300px;
 }
+.information2 h3{
+	padding-top: 55px;
+	padding-bottom: 40px;
+	font-size: 30px;
+	text-transform: uppercase;
+	line-height: 24px;
+}
+.information2 p{
+	padding-bottom: 130px;
+	font-size: 14px;
+	line-height: 24px;
+	color:#333333;
+}
+<br>
 form{
 	
 	width:575px;
@@ -276,3 +290,212 @@ button{
 	margin-top: 60px;
 }
 
+.container-menu{
+	width: 1200px;
+	height: 215px;
+	margin:0 auto;
+	background-image: url(img/fon.png) no-repeat;
+	background-color: #a2a2b8;
+	padding-top: 30px;
+	margin-bottom: 0;
+	
+}
+.infrastructure{
+	width: 310px;
+	height: 215px;
+	float: left;
+	
+	text-transform: uppercase;
+}
+.infrastructure h3{
+	font-size: 16px;
+	line-height: 21px;
+	color: #ffffff;
+	padding-left: 65px;
+}
+.infrastructure p{
+	padding-top: 30px;
+	color: #ffffff;
+	padding-left: 65px;
+}
+.hous{
+	width: 488px;
+	height: 215px;
+	float: left;
+}
+.hous h3{
+	font-size: 16px;
+	line-height: 21px;
+	color: #ffffff;
+}
+.hous p{
+	padding-top: 30px;
+	color: #ffffff;
+}
+.range{
+	width: 400px;
+	height: 215px;
+	float: right;
+	
+}
+.range h3{
+	font-size: 16px;
+	line-height: 21px;
+	color: #ffffff;
+	text-transform: uppercase;
+	padding-left: 72px;
+	padding-bottom: 13px;
+
+}
+.range input{
+	padding-left: 72px;
+	padding-bottom: 28px;
+}
+.range a{
+	border:1px solid #ffffff;
+	width: 135px;
+	height: 35px;
+	padding-left: 72px;
+}
+.result{
+	clear: both;
+	width: 1200px;
+	height: 90px;
+	background-color: #fefefe;
+	margin: 0 auto;
+	text-transform: uppercase;
+	padding-top: 35px;
+	border-bottom: 2px solid #e5e5e5;
+
+}
+.result h3{
+	font-size: 21px;
+	font-weight: bold;
+	line-height: 26px;
+	color: #000000;
+	float: left;
+	padding-left: 72px;
+	padding-right: 37px;
+}
+.result p{
+	float: left;
+	font-size: 12px;
+	line-height: 18px;
+	color: #000000;
+	padding-right: 35px;
+}
+.result span{
+	font-size: 12px;
+	line-height: 18px;
+	color: #81b3d2;
+	padding-right: 30px;
+}
+
+.result a{
+	font-size: 12px;
+	line-height: 18px;
+	color: #000000;
+	padding-right: 30px;
+}
+.result-img{
+	float: right;
+	padding-right: 72px;
+}
+.hotel{
+	width: 1200px;
+	height: 455px;
+	margin: 0 auto;
+	text-transform: uppercase;
+
+}
+.hotel-item{
+	background-color: #fefefe;
+	width: 1200px;
+	height: 150px;
+	margin: 0 auto;
+	border-bottom: 2px solid #e5e5e5;
+}
+.hotel-item-img{
+	float: left;
+	width: 135px;
+	height: 87px;
+	padding-top:35px;
+	padding-left: 72px;
+	padding-right: 26px;
+	padding-bottom: 27px; 
+}
+.hotel-inform{
+	float: left;
+	width: 264px;
+	height: 153px;
+}
+.hotel-inform h3{
+	
+	font-size: 21px;
+	line-height: 26px;
+	text-transform: uppercase;
+	color: #000000;
+	padding-top: 35px;
+	padding-bottom: 15px;
+}
+.hotel-inform p{
+    float: left;
+    font-size: 14px;
+    line-height: 21px;
+    color: #333333;
+    padding-right: 30px;
+}
+.hotel-inform span{
+	 font-size: 14px;
+    line-height: 21px;
+    color: #333333;
+}
+.inform a{
+	float: left;
+	padding-right: 5px;
+	width: 108px;
+	height: 25px;
+	border: 2px solid;
+	border-color: #81b3d2;
+}
+.rating{
+	float: right;
+	width: 702px;
+	height: 150px;
+	padding-top: 32px;
+}
+
+.main-footer{
+	width: 1200px;
+	height: 125px;
+	margin: 0 auto;
+	background-color: #f9fbf6;
+	text-align: center;
+	padding-top: 36px;
+}
+.hesteg{
+	width: 400px;
+	float: left;
+	
+}
+.hesteg p{
+	font-size: 21px;
+	line-height: 26px;
+	color: #000000;
+	float: left;
+}
+.footer-social{
+	float: left;
+	width: 400px;
+}
+.footer-copyright{
+	float: left;
+	width: 400px;
+}
+.footer-social img{
+	width: 45px;
+	height: 45px;
+	background-color: #81b3d2;
+	padding-right: 5px;
+	float: left;
+}
