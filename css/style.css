@@ -1,308 +1,437 @@
-@import url(reset.css);
 body{
-	width: 1280px;
-	
-	background-color: #f2f2f2;
-}
-a{
+	min-width: 1280px;
+	background-color: #ffffff;
+	text-transform: uppercase;
+	font-size: 14px;
 	font-family: "Times New Roman", Georgia, serif;
+	text-decoration: none;
+}
+
+.sprite {
+    background-image: url(spritesheet.png);
+    background-repeat: no-repeat;
+    display: block;
+}
+
+.sprite-copyright {
+    width: 195px;
+    height: 39px;
+    background-position: -5px -5px;
+}
+
+.sprite-feisbuk {
+    width: 10px;
+    height: 19px;
+    background-position: -5px -54px;
+}
+
+.sprite-twiter {
+    width: 17px;
+    height: 15px;
+    background-position: -5px -83px;
+}
+
+.sprite-youtube {
+    width: 20px;
+    height: 16px;
+    background-position: -5px -108px;
+}
+
+
+a{
 	font-style: bold;
 	font-size: 14px;
 	line-height: 26px;
-	color:#000000;
+	font-family: "Times New Roman", Georgia, serif;
 	text-decoration: none;
 	text-transform: uppercase;
-}
-.main-header{
-	width: 1200px;
-	height: 56px;
-	background: #ffffff;
-	margin:0 auto;
-	overflow: hidden;
-}
-.main-navigation ul li{
-	float:left;
-	margin-right: 65px;
-	margin-left: 65px;
-	margin-top: 18px;
-	margin-bottom: 20px;
-}
-.logo{
-	width: 138px;
-	height: 70px;
-	position: absolute;
-	top:0;
-}
-.panorama{
-	width: 1200px;
-	height: 807px;
-	margin: 0 auto;
-}
-.panorama-img{
-	height: 547px;
-	margin-bottom: 60px;
-}
-.information {
-
-	text-align: center;
-	margin: 0 auto; 
-	margin-top: 60px;
-}
-.information h2{
-	font-size: 21px;
-	line-height: 26px;
 	color: #000000;
-	font-weight: bold;
-	text-transform: uppercase;
+}
+/*шапка*/
+.main-header{
+	position: relative;
+	background: #ffffff;
 	
 }
-.information p{
+
+.main-navigation{
+	float: left;
+	width: 1200px;
+	margin: 0 auto;
+}
+
+.main-navigation ul {
+    margin-left: 65px;
+    padding: 0;
+    list-style: none;
+    font-size: 0;
+}
+
+.main-navigation  li{
+	float: left;
+	padding-left: 60px;
 	font-size: 14px;
 	line-height: 26px;
-	color: #333333;
-	text-transform: uppercase;
-	margin-bottom: 60px;
 }
+
+.main-navigation ul li:nth-child(2){
+	padding-right: 300px;
+}
+
+.main-navigation a {
+    display: block;
+    padding: 15px 25px;
+    color: #000000;
+    text-decoration: none;
+}
+
+.logo{
+	position: absolute;
+	top: 0;
+	left: 600px;
+	width: 138px;
+	height: 70px;
+}
+
+.main-navigation a:hover {
+	background: #252323;
+}
+/*основне меню*/
+.panorama{
+	width: 1200px;
+	height: 714px;
+	margin: 0 auto;
+	
+}
+
+.panorama-img{
+	height: 505px;
+	margin-bottom: 100px;
+}
+
+.information {
+	width: 1200px;
+	text-align: center;
+}
+
+.information h2{
+	padding-top: 60px; 
+	padding-bottom: 35px;
+	font-size: 21px;
+	line-height: 26px;
+	font-weight: bold;
+	text-transform: uppercase;
+	color: #000000;
+}
+
+.information p{
+	
+	font-size: 14px;
+	line-height: 26px;
+	text-transform: uppercase;
+	color: #333333;	
+}
+/*основний блок титульна сторінка*/
 .block{
 	width: 1200px;
+	margin: 0 auto;
 	background-color: #ffffff;
-	margin:0 auto;
+}
 
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
 }
 
 .block1-text{
-	width: 400px;
-	height: 255px;
-	background-color: #81b3d2;
 	float: left;
+	width: 400px;
+	margin-bottom: -25px;
+	padding-bottom: 44px;
+	padding-top: 44px;
 	text-align: center;
+	background-color: #81b3d2;
+	color: #ffffff;
+	
 }
 
-.block1-text h4{
-	background-color: #81b3d2;
+.block1-text h2{
 	font-size: 21px;
 	line-height: 21px;
-	color: #ffffff;
 	text-transform: uppercase;
-	padding-top: 50px;
 }
+
 .block1-text p{
-	background-color: #81b3d2;
 	font-size: 14px;
 	line-height: 21px;
-	color: #ffffff;
 	text-transform: uppercase;
-	padding: 15px;
 }
+
 .block1-img{
 	float:left;
 	width: 800px;
-	height: 255px;
+	
 }
-.block2{
-	text-transform: uppercase;
-}
-.block2-home img{
-	padding-top: 57px;
-	padding-bottom: 30px;
 
+.block2{
+	text-align: center;
+	text-transform: uppercase;
+	background-color: #ffffff;
+}  
+
+.block2-home{
+	float: left;
+	width: 400px;
+	height: 330px;
 }
-.block2-home h4{
+
+.block2-home img{
+	padding-top: 60px;
+	padding-bottom: 34px;
+}
+
+.block2-home h2{
+	padding-bottom: 23px;
 	font-size: 21px;
 	line-height: 21px;
-	color: #000000;
-	padding-bottom: 25px;
 	font-weight: bold;
+	color: #000000;
 }
+
 .block2-home p{
 	font-size: 14px;
 	line-height: 21px;
 	color:#333333;
 }
 
+.block2-food{
+	float: left;
+	width: 400px;
+	height: 330px;
+}
 
 .block2-food img{
-	padding-top: 57px;
-	padding-bottom: 30px;
-
+	padding-top: 60px;
+	padding-bottom: 34px;
 }
-.block2-food h4{
+
+.block2-food h2{
+	padding-bottom: 23px;
 	font-size: 21px;
 	line-height: 21px;
-	color: #000000;
-	padding-bottom: 25px;
 	font-weight: bold;
+	color: #000000;
 }
+
 .block2-food p{
 	font-size: 14px;
 	line-height: 21px;
 	color:#333333;
 }
 
-.block2-souvenirs img{
-	padding-top: 57px;
-	padding-bottom: 30px;
-
-}
-.block2-souvenirs h4{
-	font-size: 21px;
-	line-height: 21px;
-	color: #000000;
-	padding-bottom: 25px;
-	font-weight: bold;
-}
-.block2-souvenirs p{
-	font-size: 14px;
-	line-height: 21px;
-	color:#333333;
-}
-.block2{
-	
-	text-align: center;
-
-}
-.block2-home{
-	width: 400px;
-	height: 330px;
-	float: left;
-}
-.block2-food{
-	width: 400px;
-	height: 330px;
-	float: left;
-}
 .block2-souvenirs{
 	float: left;
 	width: 400px;
 	height: 330px;
 }
+
+.block2-souvenirs img{
+	padding-top: 60px;
+	padding-bottom: 34px;
+}
+
+.block2-souvenirs h2{
+	padding-bottom: 23px;
+	font-size: 21px;
+	line-height: 21px;
+	font-weight: bold;
+	color: #000000;
+}
+
+.block2-souvenirs p{
+	font-size: 14px;
+	line-height: 21px;
+	color:#333333;
+}
+
 .block3-text{
-	width: 400px;
-	height: 255px;
-	background-color: #81b3d2;
 	float: left;
+	width: 400px;
+	margin-top: 85px;
+	padding-bottom: 44px;
+	padding-top: 44px;
 	text-align: center;
+	background-color: #81b3d2;
+	color: #ffffff;
 }
 
 .block3-text h2{
-	padding-top: 50px;
-	background-color: #81b3d2;
 	font-size: 21px;
 	line-height: 21px;
-	color: #ffffff;
 	text-transform: uppercase;
-}
-.block3-text p{
-	padding-top: 25px;
 	background-color: #81b3d2;
+	color: #ffffff;
+}
+
+.block3-text p{
 	font-size: 14px;
 	line-height: 21px;
-	color: #ffffff;
 	text-transform: uppercase;
+	background-color: #81b3d2;
+	color: #ffffff;
 }
+
 .block3-img{
 	float:left;
 	width: 800px;
-	height: 255px;
+	margin-top: 85px;
 }
+
 .block4{
-	text-align: center;
+	float: left;
+	width: 1200px;
+	margin: 0 auto;
+	margin-top: 0;
+	margin-bottom: 290px;
 	padding-top: 50px;
+	text-align: center;
+	background-color: #eeeeee;
 }
+
+.block4-area{
+	float: left;
+	width: 400px;
+	height: 256px;
+}
+
+.block4-road{
+	float: left;
+	width: 400px;
+	height: 256px;
+}
+
+.block4-tourists{
+	float: left;
+	width: 364px;
+	height: 256px;
+}
+
 .block4 p{
-	padding-top: 30px;
+	padding-top: 27px;
 	text-transform: uppercase;
+	font-size: 14px;
+	line-height: 21px;
+	color:#333333;
 }
-.block4 h4{
+
+.block4 h2{
+	font-weight: bold;
 	font-size: 21px;
 	line-height: 21px;
 	color: #000000;
-	font-weight: bold;
 }
-.block4 p{
-	font-size: 14px;
-	line-height: 21px;
-	color:#333333;
-}
-.block4-area{
-	background-color: #eeeeee;
-	padding-top: 50px;
-	width: 400px;
-	height: 255px;
-	float: left;
-}
-.block4-road{
-	background-color: #eeeeee;
-	padding-top: 50px;
-	width: 400px;
-	height: 255px;
-	float: left;
-}
-.block4-tourists{
-	background-color: #eeeeee;
-	padding-top: 50px;
-	float: left;
-	width: 400px;
-	height: 255px;
 
+/*блок карта форма титулка*/
+
+.inform{
+	margin-top: 38px;
+	width: 1200px;
+	height: 764px;
+	margin:0 auto;
+	text-align: center;
+	text-transform: uppercase;
+	
 }
 .information2 {
-	
-	text-align: center;
-	background-color: #ffffff;
+	position: absolute;
+	left: 70px;
+	top: 2240px;
 	width: 1200px;
-	height: 300px;
+	height: 291px;
+	margin: 0 auto;
+	background-color: #ffffff;
 }
-.information2 h3{
-	padding-top: 55px;
-	padding-bottom: 40px;
+
+.information2 h2{
+	padding-top: 50px;
+	
 	font-size: 30px;
-	text-transform: uppercase;
 	line-height: 24px;
 }
+
 .information2 p{
-	padding-bottom: 130px;
 	font-size: 14px;
 	line-height: 24px;
 	color:#333333;
 }
-<br>
+
+.map{
+	margin-top: 291px;
+	width: 1200px;
+	height: 472px;
+}
+
 form{
-	
-	width:575px;
-	height: 475px;
+	position: absolute;
+	top: 2449px; 
+	left: 65px;
+	z-index: 10;
+    width:575px;
+	height: 482px;
 	margin-left: 325px;
 	background-color: #ffffff;
-	margin-top: -75px;
 }
 legend{
-	height: 85px;
+	width: 575px;
+	height: 86px;
 	background-color: #766357;
-	margin-top: -55px;
+	padding-top: 32px;
+	font-size: 21px;
+	line-height: 26px;
+	color: #ffffff;
+	text-align: center;
 }
 form p{
-	padding-top: 50px;
+	display: inline-block;
+	text-align: center;
+	padding-top: 28px;
+	font-size: 14px;
+	line-height: 26px;
+	color: #000000;
+	font-weight: bold;
 }
+input[type="date"]{
+	width: 347px;
+	height: 37px;
+}
+input{
+	padding-left: 20px;
+}
+
 button{
 	width: 460px;
 	height: 60px;
 	background-color: #81b3d2;
 	margin-top: 60px;
 }
-
 .container-menu{
+	position: relative;
 	width: 1200px;
-	height: 215px;
+	height: 221px;
 	margin:0 auto;
-	background-image: url(img/fon.png) no-repeat;
-	background-color: #a2a2b8;
+	background-image: url(img/conteiner.jpg) no-repeat;
 	padding-top: 30px;
 	margin-bottom: 0;
 	
 }
 .infrastructure{
-	width: 310px;
-	height: 215px;
+	position: absolute;
+	left: 73px;
+	top: 25px;
+
+	width: 241px;
+	height: 218px;
 	float: left;
 	
 	text-transform: uppercase;
@@ -319,9 +448,12 @@ button{
 	padding-left: 65px;
 }
 .hous{
+	position: absolute;
+	left: 313px;
+	top: 25px;
 	width: 488px;
-	height: 215px;
-	float: left;
+	height: 218px;
+	
 }
 .hous h3{
 	font-size: 16px;
@@ -333,6 +465,9 @@ button{
 	color: #ffffff;
 }
 .range{
+	position: absolute;
+	right: 73px;
+	top: 25px;
 	width: 400px;
 	height: 215px;
 	float: right;
@@ -450,7 +585,7 @@ button{
     line-height: 21px;
     color: #333333;
 }
-.inform a{
+{
 	float: left;
 	padding-right: 5px;
 	width: 108px;
@@ -464,6 +599,7 @@ button{
 	height: 150px;
 	padding-top: 32px;
 }
+
 
 .main-footer{
 	width: 1200px;
