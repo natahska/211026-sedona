@@ -7,35 +7,6 @@ body{
 	text-decoration: none;
 }
 
-.sprite {
-    background-image: url(spritesheet.png);
-    background-repeat: no-repeat;
-    display: block;
-}
-
-.sprite-copyright {
-    width: 195px;
-    height: 39px;
-    background-position: -5px -5px;
-}
-
-.sprite-feisbuk {
-    width: 10px;
-    height: 19px;
-    background-position: -5px -54px;
-}
-
-.sprite-twiter {
-    width: 17px;
-    height: 15px;
-    background-position: -5px -83px;
-}
-
-.sprite-youtube {
-    width: 20px;
-    height: 16px;
-    background-position: -5px -108px;
-}
 
 
 a{
@@ -115,8 +86,8 @@ a{
 }
 
 .information h2{
-	padding-top: 60px; 
-	padding-bottom: 35px;
+	padding-top: 30px; 
+	padding-bottom: 5px;
 	font-size: 21px;
 	line-height: 26px;
 	font-weight: bold;
@@ -132,23 +103,18 @@ a{
 	color: #333333;	
 }
 /*основний блок титульна сторінка*/
-.block{
+.container{
 	width: 1200px;
 	margin: 0 auto;
 	background-color: #ffffff;
 }
 
-.clearfix:after {
-    content: "";
-    display: table;
-    clear: both;
-}
-
 .block1-text{
 	float: left;
 	width: 400px;
+	height: 256px;
 	margin-bottom: -25px;
-	padding-bottom: 44px;
+	
 	padding-top: 44px;
 	text-align: center;
 	background-color: #81b3d2;
@@ -171,6 +137,8 @@ a{
 .block1-img{
 	float:left;
 	width: 800px;
+	height: 300px;
+	margin-bottom: -25px;
 	
 }
 
@@ -336,6 +304,7 @@ a{
 
 .inform{
 	margin-top: 38px;
+	margin-bottom: 200px;
 	width: 1200px;
 	height: 764px;
 	margin:0 auto;
@@ -345,8 +314,8 @@ a{
 }
 .information2 {
 	position: absolute;
-	left: 70px;
-	top: 2240px;
+	left: 72px;
+	top: 2000px;
 	width: 1200px;
 	height: 291px;
 	margin: 0 auto;
@@ -368,13 +337,14 @@ a{
 
 .map{
 	margin-top: 291px;
+	margin-bottom: 200px;
 	width: 1200px;
 	height: 472px;
 }
 
 form{
 	position: absolute;
-	top: 2449px; 
+	top: 2205px; 
 	left: 65px;
 	z-index: 10;
     width:575px;
@@ -538,7 +508,7 @@ button{
 }
 .hotel{
 	width: 1200px;
-	height: 455px;
+	height: 450px;
 	margin: 0 auto;
 	text-transform: uppercase;
 
@@ -554,84 +524,135 @@ button{
 	float: left;
 	width: 135px;
 	height: 87px;
-	padding-top:35px;
+	padding-top:30px;
 	padding-left: 72px;
 	padding-right: 26px;
-	padding-bottom: 27px; 
+	padding-bottom: 30px; 
 }
 .hotel-inform{
 	float: left;
 	width: 264px;
-	height: 153px;
+	height: 150px;
 }
-.hotel-inform h3{
+.hotel-inform h2{
 	
 	font-size: 21px;
 	line-height: 26px;
 	text-transform: uppercase;
 	color: #000000;
-	padding-top: 35px;
-	padding-bottom: 15px;
 }
-.hotel-inform p{
+.hotel-inform span{
     float: left;
     font-size: 14px;
     line-height: 21px;
     color: #333333;
     padding-right: 30px;
 }
-.hotel-inform span{
-	 font-size: 14px;
-    line-height: 21px;
-    color: #333333;
-}
-{
+
+.hotel-item a{
 	float: left;
-	padding-right: 5px;
-	width: 108px;
+	margin-right: 7px;
+	width: 115px;
 	height: 25px;
 	border: 2px solid;
 	border-color: #81b3d2;
 }
+
 .rating{
 	float: right;
-	width: 702px;
-	height: 150px;
-	padding-top: 32px;
 }
 
+.rating img{
+	padding-top: 30px;
+} 
+
+.rating p{
+	padding-top: 47px;
+}
+
+.footer{
+	position: absolute;
+	z-index: 10;
+	top: 2750px;
+}
 
 .main-footer{
 	width: 1200px;
 	height: 125px;
-	margin: 0 auto;
+	margin-top: 45px;
 	background-color: #f9fbf6;
 	text-align: center;
-	padding-top: 36px;
+	
 }
 .hesteg{
 	width: 400px;
 	float: left;
+	margin-left: 20px;
 	
 }
 .hesteg p{
 	font-size: 21px;
 	line-height: 26px;
 	color: #000000;
-	float: left;
 }
-.footer-social{
-	float: left;
-	width: 400px;
-}
-.footer-copyright{
-	float: left;
-	width: 400px;
-}
-.footer-social img{
+
+.social-btn-tv{
 	width: 45px;
 	height: 45px;
+	margin-left: 5px;
 	background-color: #81b3d2;
 	padding-right: 5px;
 	float: left;
+}
+
+.social-btn-fb{
+	width: 45px;
+	height: 45px;
+	margin-left: 5px;
+	background-color: #81b3d2;
+	padding-right: 5px;
+	float: left;
+}
+
+.social-btn-yt{
+	width: 45px;
+	height: 45px;
+	margin-left: 5px;
+	background-color: #81b3d2;
+	padding-right: 5px;
+	float: left;
+}
+
+.sprite-copyright {
+	float: left;
+	margin-left: 255px;
+    width: 195px;
+    height: 39px;
+}
+
+.sprite {
+	margin-left: 5px;
+    background-image: url(spritesheet.png);
+    background-repeat: no-repeat;
+    display: block;
+}
+
+
+
+.sprite-feisbuk {
+    width: 10px;
+    height: 19px;
+    background-position: -5px -54px;
+}
+
+.sprite-twiter {
+    width: 17px;
+    height: 15px;
+    background-position: -5px -83px;
+}
+
+.sprite-youtube {
+    width: 20px;
+    height: 16px;
+    background-position: -5px -108px;
 }
