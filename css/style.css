@@ -3,7 +3,8 @@ body{
 	background-color: #ffffff;
 	text-transform: uppercase;
 	font-size: 14px;
-	font-family: "Times New Roman", Georgia, serif;
+	font-weight: 400;
+	font-family: "PT Sans", Arial, sans-serif;
 	text-decoration: none;
 }
 
@@ -19,66 +20,76 @@ a{
 	color: #000000;
 }
 /*шапка*/
-.main-header{
+
+header{
 	position: relative;
-	background: #ffffff;
-	
 }
 
-.main-navigation{
-	float: left;
+.container{
 	width: 1200px;
-	margin: 0 auto;
+	height: 54px;
+	margin: 0 auto; 
 }
 
-.main-navigation ul {
-    margin-left: 65px;
-    padding: 0;
-    list-style: none;
-    font-size: 0;
+.clearfix::after{
+	content: "";
+	display: table;
+	clear: both;
 }
 
-.main-navigation  li{
+ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	background-color: #ffffff;
+}
+
+li{
 	float: left;
-	padding-left: 60px;
-	font-size: 14px;
-	line-height: 26px;
+	width: 20%;
+	text-align: center;
 }
 
-.main-navigation ul li:nth-child(2){
-	padding-right: 300px;
+a{
+	display: block;
+	padding-top: 20px;
+	padding-bottom: 19px;
+	text-decoration: none;
 }
 
-.main-navigation a {
-    display: block;
-    padding: 15px 25px;
-    color: #000000;
-    text-decoration: none;
+li:nth-child(2){
+	margin-right: 20%;
 }
 
 .logo{
 	position: absolute;
-	top: 0;
-	left: 600px;
-	width: 138px;
-	height: 70px;
+	left: 50%;
+	top: 0px;
+	transform: translateX(-50%);
 }
 
-.main-navigation a:hover {
-	background: #252323;
-}
-/*основне меню*/
-.panorama{
-	width: 1200px;
-	height: 714px;
-	margin: 0 auto;
-	
+/*панорама*/
+ .img-block{
+ 	position: relative;
+ 	text-align: center;
+ 	padding-top: 76px;
+ 	width: 1200px;
+ 	margin: 0 auto;
+ 	background: #c6cdd9 url("../img/panorama.jpg") no-repeat;
+ 	
+ } 
+
+.img-block:before{
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 60px;
+  z-index: 1;
 }
 
-.panorama-img{
-	height: 505px;
-	margin-bottom: 100px;
-}
+ /*заголовок информацыи*/
 
 .information {
 	width: 1200px;
@@ -86,7 +97,7 @@ a{
 }
 
 .information h2{
-	padding-top: 30px; 
+	padding-top: px; 
 	padding-bottom: 5px;
 	font-size: 21px;
 	line-height: 26px;
@@ -390,7 +401,7 @@ button{
 	width: 1200px;
 	height: 221px;
 	margin:0 auto;
-	background-image: url(img/conteiner.jpg) no-repeat;
+	background:#555555 url(../img/conteiner.jpg) no-repeat;
 	padding-top: 30px;
 	margin-bottom: 0;
 	
@@ -434,34 +445,121 @@ button{
 	padding-top: 30px;
 	color: #ffffff;
 }
-.range{
-	position: absolute;
-	right: 73px;
-	top: 25px;
-	width: 400px;
-	height: 215px;
-	float: right;
 	
 }
-.range h3{
+/*фильтр вторая страница*/
+.filter-range{
+	position: absolute;
+	top: 25px;
+	right: 73px;
+	width: 330px;
+	height: 218px;
+	color: #ffffff;
+	text-transform: uppercase; 
+}
+
+.filter-range-title{
+	margin-bottom: 9px;
+	font-weight: 600;
 	font-size: 16px;
 	line-height: 21px;
-	color: #ffffff;
-	text-transform: uppercase;
-	padding-left: 72px;
-	padding-bottom: 13px;
+}
+
+.price-controls{
+	position: relative;
+	height: 36px;
+	margin-bottom: 20px;
+	border: solid 2px #ffffff;
+	border-radius: 2px; 
+}
+
+.price-controls::after{
+	content: "";
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	width: 2px;
+	background: #ffffff;
+	transform: translete(-50%, -50%);
+}
+.price-controls label{
+	 display: inline-block;
+	 font-size: 14px;
+	 line-height: 38px;
+	 vertical-align: top;
+	 cursor: pointer;
 
 }
-.range input{
-	padding-left: 72px;
-	padding-bottom: 28px;
+.price-controls .min-price,
+.price-controls .min-price{
+	width: 92px;
+	padding-left: 65px;
 }
-.range a{
-	border:1px solid #ffffff;
-	width: 135px;
-	height: 35px;
-	padding-left: 72px;
+
+.price-controls input{
+	width: 50px;
+	margin: 0;
+	color: inherit;
+	font: inherit;
+	background: none;
+	border: none;
+	outline: none; 
 }
+
+.range-controls{
+	position: relative;
+	margin-bottom: 32px;
+}
+
+.range-controls .scale{
+	height: 2px;
+	background: rgba(255, 255, 255, 0,3);
+}
+
+.range-controls .bar{
+	width: 80%;
+	height: 2px;
+	background: #ffffff;
+}
+
+.range-taggle{
+	position: absolute;
+	top: -9px;
+	width: 4px;
+	height: 4px;
+	background: #ababab;
+	border: 8px solid #ffffff;
+	border-radius: 50%;
+	box-shadow: 0 2px 1px 0 rgba(0, 1, 1, 0,2); 
+}
+
+.range-taggle-min{
+	left:0;
+}
+
+.range-taggke-max{
+left: 80%;
+}
+
+.btn-transparent{
+	display: block;
+	margin: 0 auto;
+	padding: 6px 36px;
+	font-size: 14px;
+	line-height: 20px;
+	color: #ffffff;
+	text-transform: uppercase;
+	background: transparent;
+	border: 2px solid #ffffff;
+	outline: none;
+	cursor: pointer;
+}
+
+.btn-transparent:hover{
+	color: #000000;
+	background: #ffffff;
+}
+/*конец фильтра*/
 .result{
 	clear: both;
 	width: 1200px;

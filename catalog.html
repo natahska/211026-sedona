@@ -3,49 +3,53 @@
   <head>
     <meta charset="utf-8">
     <title>Cедона</title>
+    <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
-  <header class="main-header">
-        <nav class="main-navigation">
-          <ul>
-            <li>
-              <a href="#">ИНФОРМАЦИЯ</a>
-            </li>
-            <li>
-              <a href="#">ФОТО И ВИДЕО</a>
-            </li>
-            <li>
-              <a href="#">КАРТА ШТАТА</a>
-            </li>
-            <li>
-              <a href="#">ГОСТИНИЦЫ</a>
-            </li>
+ <header >
+     <div class="container"> 
+        <nav >
+          <ul class="clearfix">
+            <li><a href="#">ИНФОРМАЦИЯ</a></li>
+            <li><a href="#">ФОТО И ВИДЕО</a></li>
+            <li><a href="#">КАРТА ШТАТА</a></li>
+            <li><a href="#">ГОСТИНИЦЫ</a></li>
           </ul>
-          <div class="logo"> <img  src="img/logo.png" alt="логотип" width="138" height="70" ></div>
-        </nav>
+       </nav> 
+      <div class="logo">  
+          <img  src="img/logo.png" alt="логотип" width="138" height="70" >
+      </div>
     </header>
     <main class="container">
-      <div class="container-menu">
-      <img src="img/conteiner.jpg" alt="" width="1200" height="221">
-        <div class="infrastructure">
+    <div class="container-menu">
+      <div class="infrastructure">
           <h3>ИНФРАСТРУКТУРА:</h3>
           <p><label><input type="checkbox">БАССЕЙН</label></p>
           <p><label><input type="checkbox">ПАРКОВКА</label></p>
           <p><label><input type="checkbox">Wi-Fi</label></p>
-        </div>
-        <div class="hous">
+      </div>
+      <div class="hous">
           <h3>ТИП ЖИЛЬЯ:</h3>
           <p><label><input type="checkbox">ГОСТИНИЦА</label></p>
           <p><label><input type="checkbox">МОТЕЛЬ</label></p>
-          <p><label><input type="checkbox">АПАРТАМЕНТЫ</label></p> 
-        </div>
-        <div class="range">
-          <h3>Стоимость в сутки (Р):</h3>
-          <input type="range"><br>
-          <a href="#" alt="Показать">Показать</a>
-        </div>
+          <p><label><input type="checkbox">АПАРТАМЕНТЫ</label></p>
       </div>
+      <div class="filter-range"> 
+          <div class="filter-range-title"> Стоимость в сутки (Р):</div>
+          <div class="price-controls">
+           <label  class="min-price"for="">от<input type="text" name="min-price" value="0"></label>
+           <label  class="max-price"for="">от<input type="text" name="max-price" value="3000"></label>
+          </div>
+          <div class="range-controls">
+          <div class="scale">
+             <div class="bar"></div>
+          </div>
+          <div class="range-toggle range-toggle-min"></div>
+          <div class="range-toggle range-toggle-max"></div>
+      </div>
+         <button class="btn-transparent" type="submit">Показать</button>
+       </div>
       <div class="result">
         <h3>Найдено: 3</h3>
         <p>СОРТИРОВКА:</p>
@@ -89,7 +93,7 @@
         </div>
         <div class="hotel-item">
           <div class="hotel-item-img">
-            <img src="img/villas.jpg" alt="hotel-item">
+            <img src=" alt="hotel-item">
           </div>
           <div class="hotel-inform">
             <h2>Villas at Poco Diab</h2>
