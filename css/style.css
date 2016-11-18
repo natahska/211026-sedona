@@ -8,13 +8,11 @@ body{
 	text-decoration: none;
 }
 
-
-
 a{
 	font-style: bold;
 	font-size: 14px;
 	line-height: 26px;
-	font-family: "Times New Roman", Georgia, serif;
+	font-family: "PT Sans", Arial, sans-serif;
 	text-decoration: none;
 	text-transform: uppercase;
 	color: #000000;
@@ -23,6 +21,7 @@ a{
 
 header{
 	position: relative;
+
 }
 
 .container{
@@ -71,23 +70,25 @@ li:nth-child(2){
 /*панорама*/
  .img-block{
  	position: relative;
- 	text-align: center;
- 	padding-top: 76px;
+ 	padding-top: 77px;
  	width: 1200px;
  	margin: 0 auto;
+ 	text-align: center;
  	background: #c6cdd9 url("../img/panorama.jpg") no-repeat;
  	
  } 
 
-.img-block:before{
+.img-block::before{
   content: '';
   position: absolute;
   bottom: 0;
   left: 0;
   width: 100%;
-  height: 60px;
+  height: 57px;
   z-index: 1;
+  margin-bottom: 2px; 
 }
+
 
  /*заголовок информацыи*/
 
@@ -114,7 +115,7 @@ li:nth-child(2){
 	color: #333333;	
 }
 /*основний блок титульна сторінка*/
-.container{
+.cont{
 	width: 1200px;
 	margin: 0 auto;
 	background-color: #ffffff;
@@ -397,23 +398,22 @@ button{
 	margin-top: 60px;
 }
 .container-menu{
-	position: relative;
+	margin: 0;
+	padding: 0;
 	width: 1200px;
-	height: 221px;
-	margin:0 auto;
-	background:#555555 url(../img/conteiner.jpg) no-repeat;
-	padding-top: 30px;
-	margin-bottom: 0;
+	height: 218px;
+	margin: 0 auto;
+	background: #555555 url(../img/conteiner.jpg) no-repeat;
+	
+
 	
 }
 .infrastructure{
-	position: absolute;
-	left: 73px;
-	top: 25px;
+	float: left;
 
 	width: 241px;
 	height: 218px;
-	float: left;
+	
 	
 	text-transform: uppercase;
 }
@@ -429,9 +429,7 @@ button{
 	padding-left: 65px;
 }
 .hous{
-	position: absolute;
-	left: 313px;
-	top: 25px;
+	float: left;
 	width: 488px;
 	height: 218px;
 	
@@ -449,10 +447,8 @@ button{
 }
 /*фильтр вторая страница*/
 .filter-range{
-	position: absolute;
-	top: 25px;
-	right: 73px;
-	width: 330px;
+	float: left;
+	width: 328px;
 	height: 218px;
 	color: #ffffff;
 	text-transform: uppercase; 
