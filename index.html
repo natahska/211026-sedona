@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
-    <header >
+    <header class="header">
      <div class="container"> 
         <nav>
           <ul class="clearfix">
@@ -24,7 +24,6 @@
     </header>
     <div class="img-block">
         <img src="img/text.png">
-        <img src="img/ramka.png" width="1200" height="57" alt="рамка">
     </div>
       <div class="cont">
 
@@ -34,7 +33,7 @@
           <p class="information">Рассмотрим 5 причин, по которым Седона круче, чем гранд каньон!</p>
         </div>
     
-      <div class="block1">
+      <div class="block1 clearfix">
     	 <div class="block1-text">
     	  <h2>НАСТОЯЩИЙ<br> ГОРОДОК</h2>
     	  <p>— №1 — </p>
@@ -44,7 +43,7 @@
     	  <img class="block1-img" src="img/city.jpg" alt="городок" width="800" height="256">
     	 </div>
       </div>
-      <div class="block2">
+      <div class="block2 clearfix">
     	<div class="block2-home">
     	  <img src="img/home.png" alt="home" width="79" height="75">
     	  <h2>Жилье</h2>
@@ -60,7 +59,7 @@
     	  <h2>СУВЕНИРЫ</h2>
     	  <p>Не только китайского, но и местного производства!</p>
       </div>
-      <div class="block3">
+      <div class="block3 clearfix">
     	  <div class="block3-img">
     	    <img src="img/canyon.jpg" alt="каньйон" width="800" height="256">
     	  </div>
@@ -70,20 +69,20 @@
           <p>Да, по нему можно пройти! Если конечно<br> вы осмелитесь</p>
     	  </div>
       </div>
-      <div class="block4">
+      <div class="block4 clearfix">
     	  <div class="block4-area">
     	    <h2>НЕБОЛЬШАЯ<br> ПЛОЩАДЬ</h2>
-    	    <p>— №3 —</p>
+    	    <span>— №3 —</span>
     	    <p>ВСЕ достопримечательности<br> находятся очень близко</p>
     	  </div>
     	  <div class="block4-road">
     	    <h2>КРАСИВАЯ <br>ДОРОГА</h2>
-    	    <p>— №4 —</p>
+    	    <span>— №4 —</span>
     	    <p>ЕХАТЬ В СЕДОНУ ИЗ ЛАС-ВЕГАСА СОВСЕМ <br>НЕ СКУЧНО!</p>
     	  </div>
     	  <div class="block4-tourists">
     	    <h2>МАЛО<br> ТУРИСТОВ</h2>
-    	    <p>— №5 —</p>
+    	    <span>— №5 —</span>
     	    <p>Большинство едет в гранд каньон и<br> толпится там</p>
     	  </div>
         
@@ -94,19 +93,19 @@
     	  <h2>ЗАИНТЕРЕСОВАЛИСЬ?</h2>
     	  <p>Укажите предполагаемые даты поездки, <br> и мы покажем вам лучшие   предложения гостиниц в седоне
         </p>
+         <form  class="sedona-form" action="#">
+          <legend>ПОИСК ГОСТИНИЦЫ В СЕДОНЕ</legend>
+          <p><label>Дата заезда<input type="date"></label></p><br>
+          <p><label>Дата выезда<input type="date"></label></p>
+          <p><label>Взрослые<input type="number" min="1" max="20" step="1"></label></p>
+          <p><label>Дети<input type="number" min="0" max="20" step="1"></label></p>
+          <button type="button">НАЙТИ</button>
+        </form>
       </div>    
       <div class="map">
     	  <img src="img/map.jpg" alt="КАРТА" width="1200" height="472">
       </div>
     </div>
-      <form action="#">
-        	<legend>ПОИСК ГОСТИНИЦЫ В СЕДОНЕ</legend>
-        	<p><label>Дата заезда<input type="date"></label></p><br>
-        	<p><label>Дата выезда<input type="date"></label></p>
-        	<p><label>Взрослые<input type="number" min="1" max="20" step="1"></label></p>
-        	<p><label>Дети<input type="number" min="0" max="20" step="1"></label></p>
-        	<button type="button">НАЙТИ</button>
-        </form>
   </div> 
   <div class="footer">   
     <footer class="main-footer">
