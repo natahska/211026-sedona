@@ -50,8 +50,8 @@ header{
 
 .header a{
 	display: block;
-	padding-top: 16px;
-	padding-bottom: 20px;
+	padding-top: 18px;
+	padding-bottom: 18px;
 	text-decoration: none;
 }
 
@@ -150,12 +150,9 @@ li:nth-child(2){
 	float:left;
 	width: 800px;
 	height: 256px;
-	
-	
 }
 
 .block2{
-	
 	text-align: center;
 	text-transform: uppercase;
 	background-color: #ffffff;
@@ -184,7 +181,7 @@ li:nth-child(2){
 	padding-bottom: 85px;
 	font-size: 14px;
 	line-height: 21px;
-	color:#333333;
+	color: #333333;
 }
 
 .block2-food{
@@ -210,7 +207,7 @@ li:nth-child(2){
 	padding-bottom: 85px;
 	font-size: 14px;
 	line-height: 21px;
-	color:#333333;
+	color: #333333;
 }
 
 .block2-souvenirs{
@@ -235,7 +232,7 @@ li:nth-child(2){
 .block2-souvenirs p{
 	font-size: 14px;
 	line-height: 21px;
-	color:#333333;
+	color: #333333;
 }
 
 .block3-text{
@@ -267,16 +264,13 @@ li:nth-child(2){
 .block3-img{
 	float:left;
 	width: 800px;
-	height: 256px;
-	
+	height: 256px;	
 }
 
 .block4{
-	
 	width: 1200px;
 	margin: 0 auto;
 	padding-top: 47px;
-	
 	text-align: center;
 	background-color: #eeeeee;
 }
@@ -284,19 +278,16 @@ li:nth-child(2){
 .block4-area{
 	float: left;
 	width: 400px;
-	
 }
 
 .block4-road{
 	float: left;
 	width: 400px;
-	
 }
 
 .block4-tourists{
 	float: left;
 	width: 364px;
-	
 }
 
 .block4 p{
@@ -316,15 +307,16 @@ li:nth-child(2){
 	color: #000000;
 }
 
-/*блок карта форма титулка*/
+/*блок карта, форма, титулка*/
 
 .inform{
+	position: relative;
 	width: 1200px;
-	margin:38px auto 0;
+	margin: 38px auto 0;
 	text-align: center;
 	text-transform: uppercase;
-	
 }
+
 .information2 {
 	width: 1200px;
 	margin: 0 auto;
@@ -339,7 +331,7 @@ li:nth-child(2){
 }
 
 .information2 p{
-	padding-bottom: 56px;
+	padding-bottom: 135px;
 	font-size: 14px;
 	line-height: 24px;
 	color:#333333;
@@ -351,91 +343,102 @@ li:nth-child(2){
 }
 
 .sedona-form{
-    width:575px;
-	height: 482px;
-	margin-left: 325px;
+	position: absolute;
+	left: 317px;
+	top: 213px;
+    width: 575px;
 	background-color: #ffffff;
 }
+
 .sedona-form legend{
 	width: 575px;
-	height: 86px;
 	background-color: #766357;
-	padding-top: 32px;
+	padding-top: 28px;
+	padding-bottom: 31px;
 	font-size: 21px;
 	line-height: 26px;
 	color: #ffffff;
 	text-align: center;
 }
+
 .sedona-form p{
 	display: inline-block;
 	text-align: center;
-	padding-top: 28px;
 	font-size: 14px;
 	line-height: 26px;
 	color: #000000;
 	font-weight: bold;
 }
+
 .sedona-form input[type="date"]{
 	width: 347px;
-	height: 37px;
+	
 }
+
 .sedona-form input{
-	padding-left: 20px;
+	
 }
 
 .sedona-form button{
 	width: 460px;
-	height: 60px;
+	
 	background-color: #81b3d2;
 	margin-top: 60px;
 }
+/*меню выбора 2 страница*/
 .container-menu{
 	padding: 0;
 	width: 1200px;
 	height: 219px;
 	margin: 0 auto;
 	background: #555555 url(../img/conteiner.jpg) no-repeat 25% 50%;
-	
-
-	
+	padding-bottom: 30px;	
 }
+
 .infrastructure{
 	float: left;
 	width: 241px;
-	
+	padding-top: 20px;
+	padding-bottom: 20px;
 	margin-left: 38px;	
 	text-transform: uppercase;
 }
+
 .infrastructure h2{
 	font-size: 16px;
 	line-height: 21px;
 	color: #ffffff;
 	padding-left:15px; 
 }
+
 .infrastructure p{
 	padding-top: 20px;
 	color: #ffffff;
 	padding-left: 14px;
 }
+
 .hous{
 	float: left;
 	width: 488px;
-	
-	
+	padding-top: 20px;
+	padding-bottom: 20px;
 }
+
 .hous h2{
 	font-size: 16px;
 	line-height: 21px;
 	color: #ffffff;
 }
+
 .hous p{
 	padding-top: 20px;
 	color: #ffffff;
 }
 	
-
 /*фильтр вторая страница*/
 .filter-range{
+	padding-top: 20px;
+	padding-bottom: 20px;
 	float: right;
 	width: 328px;
 	margin-right: 73px;
@@ -468,16 +471,17 @@ li:nth-child(2){
 	background: #ffffff;
 	transform: translete(-50%, -50%);
 }
-.price-controls label{
-	 display: inline-block;
-	 font-size: 14px;
-	 line-height: 38px;
-	 vertical-align: top;
-	 cursor: pointer;
 
+.price-controls label{
+	display: inline-block;
+    font-size: 14px;
+	line-height: 38px;
+    vertical-align: top;
+    cursor: pointer;
 }
+
 .price-controls .min-price,
-.price-controls .min-price{
+.price-controls .max-price{
 	width: 92px;
 	padding-left: 65px;
 }
@@ -508,7 +512,7 @@ li:nth-child(2){
 	background: #ffffff;
 }
 
-.range-taggle{
+.range-toggle{
 	position: absolute;
 	top: -9px;
 	width: 4px;
@@ -519,12 +523,12 @@ li:nth-child(2){
 	box-shadow: 0 2px 1px 0 rgba(0, 1, 1, 0,2); 
 }
 
-.range-taggle-min{
+.range-toggle-min{
 	left:0;
 }
 
-.range-taggke-max{
-left: 80%;
+.range-toggle-max{
+	left: 80%;
 }
 
 .btn-transparent{
@@ -545,18 +549,19 @@ left: 80%;
 	color: #000000;
 	background: #ffffff;
 }
-/*конец фильтра*/
+
+/*результати*/
 .result{
 	clear: both;
 	width: 1200px;
-	height: 90px;
 	background-color: #fefefe;
 	margin: 0 auto;
 	text-transform: uppercase;
 	padding-top: 35px;
+	padding-bottom: 35px;
 	border-bottom: 2px solid #e5e5e5;
-
 }
+
 .result h3{
 	font-size: 21px;
 	font-weight: bold;
@@ -566,6 +571,7 @@ left: 80%;
 	padding-left: 72px;
 	padding-right: 37px;
 }
+
 .result p{
 	float: left;
 	font-size: 12px;
@@ -573,6 +579,7 @@ left: 80%;
 	color: #000000;
 	padding-right: 35px;
 }
+
 .result span{
 	font-size: 12px;
 	line-height: 18px;
@@ -583,65 +590,67 @@ left: 80%;
 .result a{
 	font-size: 12px;
 	line-height: 18px;
-	color: #000000;
-	padding-right: 30px;
-}
-.result-right{
-	float: right;
-
-}
-.result-left h3{
-display: inline-block;
-vertical-align: middle;
-margin: 0;
-}
-
-.result-left p{
-display: inline-block;
-vertical-align: middle;
-margin: 0;
-}
-
-.result-left span{
-display: inline-block;
-vertical-align: middle;
-
 }
 
 .result-left a{
-display: inline-block;
-vertical-align: middle;
+	display: inline-block;
+	vertical-align: middle;
+	color: #d9d9d9;
+	border-bottom: 1px dotted #81b3d2;
+	padding-right: 30px;
 }
+
+.result-right{
+	float: right;
+	padding-right: 35px;
+}
+
+.result-left h3{
+	display: inline-block;
+	vertical-align: middle;
+	margin: 0;
+}
+
+.result-left p{
+	display: inline-block;
+	vertical-align: middle;
+	margin: 0;
+}
+
+.result-left span{
+	display: inline-block;
+	vertical-align: middle;
+}
+
 .hotel{
 	width: 1200px;
 	margin: 0 auto;
 	text-transform: uppercase;
-
 }
+
+/*блоки отелей*/
 .hotel-item{
 	background-color: #fefefe;
 	width: 1200px;
-	
 	margin: 0 auto;
 	border-bottom: 2px solid #e5e5e5;
 }
+
 .hotel-item-img{
 	float: left;
 	width: 135px;
-	
 	margin-top:30px;
-	margin-bottom:  30px;
+	margin-bottom: 30px;
 	padding-left: 72px;
 	padding-right: 30px;
-	 
 }
+
 .hotel-inform{
 	float: left;
 	width: 267px;
 	margin-top: 25px;
-	
-	
 }
+
 .hotel-inform h2{
 	padding: 0;
 	margin: 0;
@@ -650,6 +659,7 @@ vertical-align: middle;
 	text-transform: uppercase;
 	color: #000000;
 }
+
 .hotel-inform span{
     float: left;
     font-size: 14px;
@@ -663,7 +673,6 @@ vertical-align: middle;
 	float: left;
 	margin-right: 7px;
 	width: 111px;
-	
 	padding-top: 2px;
 	border-color: #81b3d2;
 }
@@ -678,7 +687,6 @@ vertical-align: middle;
 } 
 
 .rating p{
-	
 	width: 111px;
 	padding: 8px 11px 8px 11px;
 	font-size: 14px;
@@ -699,8 +707,9 @@ vertical-align: middle;
 	font-weight: bold;
 	color: #ffffff;
 	background-color: #81b3d2; 
-	margin-top: 10px
+	margin-top: 10px;
 }
+
 .hotel-inform .button-right{
 	width: 142px;
 	height: 25px;
@@ -710,91 +719,55 @@ vertical-align: middle;
 	font-weight: bold;
 	color: #ffffff;
 	background-color: #766357; 
-	margin-top: 10px
+	margin-top: 10px;
 }
 
-
+/*подвал*/
 .footer{
-	
-}
+	width: 1200px;
+	margin: 0 auto;
+}	
 
 .main-footer{
 	width: 1200px;
 	height: 125px;
-	margin: 45px auto 0;
 	background-color: #f9fbf6;
 	text-align: center;
-	
 }
+
 .hesteg{
 	width: 400px;
 	float: left;
-	margin-left: 20px;
+	text-align: center;	
 	
 }
+
 .hesteg p{
+	padding-top: 47px;
+	padding-bottom: 51px;
 	font-size: 21px;
 	line-height: 26px;
 	color: #000000;
 }
 
-.social-btn-tv{
-	width: 45px;
-	height: 45px;
-	margin-left: 5px;
-	background-color: #81b3d2;
-	padding-right: 5px;
+.sprite{
 	float: left;
+	width: 400px;
+	text-align: center;
 }
 
-.social-btn-fb{
-	width: 45px;
-	height: 45px;
-	margin-left: 5px;
-	background-color: #81b3d2;
-	padding-right: 5px;
-	float: left;
+.sprite .social-btn{
+	display: inline-block;
+	margin-top: 36px;
+	margin-right: 5px;
+	padding: 8px 8px;
+    background-color: #81b3d2;
+}
+.sprite-copyright{
+	width: 400px;
+	text-align: center;
+	float: right;
+	padding-top: 42px;
+	padding-bottom: 40px;
 }
 
-.social-btn-yt{
-	width: 45px;
-	height: 45px;
-	margin-left: 5px;
-	background-color: #81b3d2;
-	padding-right: 5px;
-	float: left;
-}
-
-.sprite-copyright {
-	float: left;
-	margin-left: 255px;
-    width: 195px;
-    height: 39px;
-}
-
-.sprite {
-	margin-left: 5px;
-    background-image: url(spritesheet.png);
-    background-repeat: no-repeat;
-    display: block;
-}
-
-
-
-.sprite-feisbuk {
-    width: 10px;
-    height: 19px;
-    background-position: -5px -54px;
-}
-
-.sprite-twiter {
-    width: 17px;
-    height: 15px;
-    background-position: -5px -83px;
-}
-
-.sprite-youtube {
-    width: 20px;
-    height: 16px;
-    background-position: -5px -108px;
-}
