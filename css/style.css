@@ -355,6 +355,7 @@ li:nth-child(2){
 	background-color: #766357;
 	padding-top: 28px;
 	padding-bottom: 31px;
+	margin-bottom: 20px;
 	font-size: 21px;
 	line-height: 26px;
 	color: #ffffff;
@@ -363,31 +364,47 @@ li:nth-child(2){
 
 .sedona-form p{
 	display: inline-block;
-	padding-top: 30px;
+	
 	text-align: center;
 	font-size: 14px;
 	line-height: 26px;
 	color: #000000;
 	font-weight: bold;
 }
-.sedona-form label{
-	margin-right: 10px;
-}
 
-.sedona-form input[type="date"]{
-	width: 347px;
-	
+p.sedona-data{
+	padding-top: 4px;
+	padding-bottom: 4px;
 }
 
 .sedona-form input{
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 20px;
+	margin-left: 20px;
+	font-size: 14px;
+	line-height: 26px;
+	color: #000000;
+	background-color: #f2f2f2;
+	border: none;
+}
+
+.sedona-form input[type="date"]{
+	width: 306px;
 	
 }
 
 .sedona-form button{
 	width: 460px;
-	
+	padding-bottom: 17px;
+	padding-top: 17px;
+	margin-bottom: 55px;
+	margin-top: 35px;
+	line-height: 26px;
+	font-size: 21px;
+	color: #ffffff;
 	background-color: #81b3d2;
-	margin-top: 60px;
+	
 }
 /*меню выбора 2 страница*/
 .container-menu{
@@ -397,6 +414,10 @@ li:nth-child(2){
 	margin: 0 auto;
 	background: #555555 url(../img/conteiner.jpg) no-repeat 25% 50%;
 	padding-bottom: 30px;	
+}
+.container-menu input{
+	margin-right: 15px;
+	border: 2px  solid #ffffff;
 }
 
 .infrastructure{
@@ -421,6 +442,10 @@ li:nth-child(2){
 	line-height: 21px;
 	color: #ffffff;
 	padding-left: 14px;
+}..
+.infrastructure [type="checbox"]{
+	border: 3px solid #fefefe;
+	border-radius: 30%;
 }
 
 .hous{
@@ -448,7 +473,7 @@ li:nth-child(2){
 	padding-top: 20px;
 	padding-bottom: 20px;
 	float: right;
-	width: 328px;
+	width: 330px;
 	margin-right: 73px;
 	margin-top: 16px;
 	color: #ffffff;
@@ -529,7 +554,9 @@ li:nth-child(2){
 	border: 8px solid #ffffff;
 	border-radius: 50%;
 	box-shadow: 0 2px 1px 0 rgba(0, 1, 1, 0,2); 
+	cursor: pointer;
 }
+
 
 .range-toggle-min{
 	left:0;
@@ -542,7 +569,7 @@ li:nth-child(2){
 .btn-transparent{
 	display: block;
 	margin: 0 auto;
-	padding: 6px 36px;
+	padding: 6px 35px;
 	font-size: 14px;
 	line-height: 20px;
 	color: #ffffff;
