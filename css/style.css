@@ -52,6 +52,7 @@ header{
 	display: block;
 	padding-top: 18px;
 	padding-bottom: 18px;
+	font-weight: bold;
 	text-decoration: none;
 }
 
@@ -149,7 +150,7 @@ li:nth-child(2){
 .block1-img{
 	float:left;
 	width: 800px;
-	height: 256px;
+	height: 255px;
 }
 
 .block2{
@@ -264,7 +265,7 @@ li:nth-child(2){
 .block3-img{
 	float:left;
 	width: 800px;
-	height: 256px;	
+	height: 255px;	
 }
 
 .block4{
@@ -364,7 +365,6 @@ li:nth-child(2){
 
 .sedona-form p{
 	display: inline-block;
-	
 	text-align: center;
 	font-size: 14px;
 	line-height: 26px;
@@ -381,7 +381,6 @@ p.sedona-data{
 	padding-top: 5px;
 	padding-bottom: 5px;
 	padding-left: 20px;
-	margin-left: 20px;
 	font-size: 14px;
 	line-height: 26px;
 	color: #000000;
@@ -390,7 +389,34 @@ p.sedona-data{
 }
 
 .sedona-form input[type="date"]{
-	width: 306px;
+	width: 306px;	
+}
+
+.sedona-form .minus{
+	width: 40px;
+	background-color: #f2f2f2;
+	border: none;
+	text-align: center;
+
+}
+
+.sedona-form .plus{
+	width: 40px;
+	background-color: #f2f2f2;
+	border: none;
+	text-align: center;
+}
+.sedona-form .kalend{
+	margin-top: 5px;
+	margin-bottom: 5px;
+	width: 33px;
+	height: 44px;
+	background: #f2f2f2;
+	text-align: center;
+	border: none;
+}
+
+.sedona-form img{
 	
 }
 
@@ -419,13 +445,58 @@ p.sedona-data{
 	margin-right: 15px;
 	border: 2px  solid #ffffff;
 }
+/*выбор параметров 2 стр*/
 
-.infrastructure{
+.infrastructure ul,
+.hous ul       {
+	float: left;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+.infrastructure li,
+.hous li {
+
+	margin-bottom: 28px;
+}
+
+.infrastructure input,
+.hous input{
+	display: none;
+} 
+
+.infrastructure label,
+.hous label{
+	position: relative;
+	font-size: 14px;
+	line-height: 21px;
+	color: #ffffff;
+	padding-left: 38px;
+} 
+
+.infrastructure label:before,
+.hous label:before{
+	content: "";
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 22px;
+	height: 22px;
+	background-image: url(../img/checed.png);
+} 
+input:checked + label:before {
+  background-image:url(../img/checked.png);
+}
+
+
+
+.infrastructure {
 	float: left;
 	width: 241px;
 	padding-top: 20px;
 	padding-bottom: 20px;
-	margin-left: 38px;	
+	margin-left: 70px;	
 	text-transform: uppercase;
 }
 
@@ -433,22 +504,9 @@ p.sedona-data{
 	font-size: 16px;
 	line-height: 21px;
 	color: #ffffff;
-	padding-left:15px; 
 }
 
-.infrastructure p{
-	padding-top: 20px;
-	font-size: 14px;
-	line-height: 21px;
-	color: #ffffff;
-	padding-left: 14px;
-}..
-.infrastructure [type="checbox"]{
-	border: 3px solid #fefefe;
-	border-radius: 30%;
-}
-
-.hous{
+.hous {
 	float: left;
 	width: 488px;
 	padding-top: 20px;
@@ -461,8 +519,7 @@ p.sedona-data{
 	color: #ffffff;
 }
 
-.hous p{
-	padding-top: 20px;
+.hous label{
 	color: #ffffff;
 	font-size: 14px;
 	line-height: 21px;
@@ -474,7 +531,7 @@ p.sedona-data{
 	padding-bottom: 20px;
 	float: right;
 	width: 330px;
-	margin-right: 73px;
+	margin-right: 70px;
 	margin-top: 16px;
 	color: #ffffff;
 	text-transform: uppercase; 
@@ -536,7 +593,7 @@ p.sedona-data{
 
 .range-controls .scale{
 	height: 2px;
-	background: rgba(255, 255, 255, 0,3);
+	background: rgba(255, 255, 255, 0.3);
 }
 
 .range-controls .bar{

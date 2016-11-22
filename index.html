@@ -40,7 +40,7 @@
           <p>СЕДОНА — НЕ АРТАКЦИОН ДЛЯ<br>ТУРИСТОВ, ТАМ ТЕЧЕТ СВОЯ ЖИЗНЬ</p>
     	 </div>
     	 <div class="block1-img">
-    	  <img class="block1-img" src="img/city.jpg" alt="городок" width="800" height="256" >
+    	  <img class="block1-img" src="img/city.jpg" alt="городок" width="800" height="255" >
     	 </div>
       </div>
       <div class="block2 clearfix">
@@ -61,7 +61,7 @@
       </div>
       <div class="block3 clearfix">
     	  <div class="block3-img">
-    	    <img src="img/canyon.jpg" alt="каньйон" width="800" height="256">
+    	    <img src="img/canyon.jpg" alt="каньйон" width="800" height="255">
     	  </div>
     	  <div class="block3-text">
     	    <h2>ТАМ ЕСТЬ <br>Мост дьявола</h2>
@@ -96,10 +96,26 @@
         </div>
          <form  class="sedona-form clearfix" action="#">
         <legend>ПОИСК ГОСТИНИЦЫ В седоне</legend>
-         <p ><label>Дата заезда:<input type="date"> </label></p><br>
-          <p class="sedona-data"><label>Дата выезда:<input type="date"></label></p>
-          <p><label>Взрослые:<input type="number" min="1" max="20" step="1"></label></p>
-          <p><label>Дети:<input type="number" min="0" max="20" step="1"></label></p>
+         <p ><label>Дата заезда:
+         <input type="date" value="24 Апреля 2016">
+         <button class="kalend"><img src="img/kalend.png">
+         </button>
+         </label></p><br>
+          <p class="sedona-data"><label>Дата выезда:
+          <input type="date">
+          <button class="kalend"><img src="img/kalend.png" alt="" width="22" height="22">
+          </button>
+          </label></p>
+          <p><label>Взрослые:
+          <button class="minus"> <img src="img/minus.png" alt=""></button>
+          <input type="number" min="1" max="20" step="1">
+          <button class="plus"> <img src="img/plus.png" alt=""></button>
+          </label></p>
+          <p><label>Дети:
+          <button class="minus"> <img src="img/minus.png" alt=""></button>
+          <input type="number" min="0" max="20" step="1">
+          <button class="plus"> <img src="img/plus.png" alt=""></button>
+          </label></p>
           <button type="button">НАЙТИ</button>
         </form>
       </div>    

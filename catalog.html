@@ -23,23 +23,45 @@
     </header>
   
     <div class="container-menu clearfix">
-      <div class="infrastructure">
+      <div class="infrastructure " >
           <h2>ИНФРАСТРУКТУРА:</h2>
-          <p><label><input type="checkbox">БАССЕЙН</label></p>
-          <p><label><input type="checkbox">ПАРКОВКА</label></p>
-          <p><label><input type="checkbox">Wi-Fi</label></p>
+          <ul>
+          <li>
+          <input type="checkbox" id="basein" checked>
+          <label for="basein">БАССЕЙН</label>
+          </li>
+          <li>
+          <input type="checkbox" id="auto">
+          <label for="auto">ПАРКОВКА</label>
+          </li>
+          <li>
+          <input type="checkbox" internet>
+          <label for="internet">Wi-Fi</label>
+          </li>
+          </ul>
       </div>
       <div class="hous">
           <h2>ТИП ЖИЛЬЯ:</h2>
-          <p><label><input type="checkbox">ГОСТИНИЦА</label></p>
-          <p><label><input type="checkbox">МОТЕЛЬ</label></p>
-          <p><label><input type="checkbox">АПАРТАМЕНТЫ</label></p>
+          <ul>
+          <li>
+          <input type="checkbox" id="hotels" checked>
+          <label for="hotels">ГОСТИНИЦА</label>
+          </li>
+          <li>
+          <input type="checkbox" id="motel" checked>
+          <label for="motel">МОТЕЛЬ</label>
+          </li>
+          <li>
+          <input type="checkbox" id="vila" checked>
+          <label for="vila">АПАРТАМЕНТЫ</label>
+          </li>
+          </ul>
       </div>
       <div class="filter-range"> 
           <div class="filter-range-title"> Стоимость в сутки (Р):</div>
           <div class="price-controls">
-           <label  class="min-price"for="">от<input type="text" name="min-price" value="0"></label>
-           <label  class="max-price"for="">от<input type="text" name="max-price" value="3000"></label>
+           <label  class="min-price"for="">от <input type="text" name="min-price" value="0"></label>
+           <label  class="max-price"for="">от <input type="text" name="max-price" value="3000"></label>
           </div>
           <div class="range-controls">
           <div class="scale">
