@@ -6,6 +6,7 @@ body{
 	font-weight: 400;
 	font-family: "PT Sans", Arial, sans-serif;
 	text-decoration: none;
+
 }
 
 a{
@@ -349,6 +350,8 @@ li:nth-child(2){
 	top: 213px;
     width: 575px;
 	background-color: #ffffff;
+
+
 }
 
 .sedona-form legend{
@@ -356,13 +359,119 @@ li:nth-child(2){
 	background-color: #766357;
 	padding-top: 28px;
 	padding-bottom: 31px;
-	margin-bottom: 20px;
+	margin-bottom: 50px;
 	font-size: 21px;
 	line-height: 26px;
 	color: #ffffff;
 	text-align: center;
 }
 
+.search{
+	margin-left: 55px; 
+	margin-right: 55px;
+	margin-bottom: 26px;
+}
+
+
+.search2{
+	float: left;
+	margin-left: 55px;
+	margin-right: 10px; 
+	margin-bottom: 26px;
+	width:232px;
+}
+
+.search3{
+	float: left;
+	margin-left: 20px;
+	margin-right: 2px; 
+	margin-bottom: 26px;
+	width:232px;
+}
+.search label,
+.search2 label,
+.search3 label{
+	margin-right: 9px;
+	font-size: 14px;
+	line-height: 26px;
+	color: #000000;
+	font-weight: bold;
+}
+
+.search input{
+    width: 345px; 
+    border: none; 
+    min-height: 36px; 
+
+ }
+
+ .search2 input
+ .search3 input{
+    width: 117px; 
+    border: none; 
+    min-height: 36px; 
+ }
+
+ .search input[type="search"] {
+    border: none; 
+    outline: none; 
+    -webkit-appearance: none;
+    width: 311px; 
+    vertical-align: middle;
+    background-color: #f2f2f2;
+    padding-left: 12px;
+    font-size: 14px;
+    line-height: 26px;
+    color: #000000;
+    font-weight: bold;
+    text-transform: uppercase;
+   }
+
+.search2 input[type="search"],
+ .search3 input[type="search"]{
+    border: none; 
+    outline: none; 
+    -webkit-appearance: none;
+    width: 39px; 
+    vertical-align: middle;
+    background-color: #f2f2f2;
+    padding-top: 4px;
+    margin-bottom: -5px;
+    padding-left: 12px;
+    font-size: 14px;
+    line-height: 26px;
+    font-weight: bold;
+    color: #000000;
+    text-transform: uppercase;
+   }
+  .search input[type="submit"] {
+  	margin-left: -5px;
+    padding-bottom: 14px;
+    width: 32px; 
+    border: none; 
+    background: #f2f2f2 url("../img/kalend.png") no-repeat 0% 50%;
+   } 
+
+.search2 input[type="submit"],
+.search3 input[type="submit"] {
+  	margin-left: 15px;
+  	margin-right: -5px;
+    padding-bottom: 14px;
+    width: 32px; 
+    border: none; 
+    background: #f2f2f2 url("../img/minus.png") no-repeat 50% 50%;
+   } 
+
+ .search2 input[type="button"],
+ .search3 input[type="button"]{
+  	margin-left: -5px;
+    padding-bottom: 14px;
+    width: 32px; 
+    border: none; 
+    background: #f2f2f2 url("../img/plus.png") no-repeat 0% 50%;
+   }  
+
+/*
 .sedona-form p{
 	display: inline-block;
 	text-align: center;
@@ -392,6 +501,11 @@ p.sedona-data{
 	width: 306px;	
 }
 
+.sedona-form input[type="button"]{
+	width: 31px;
+	height: 38px;
+	background-color: #f2f2f2;	
+}
 .sedona-form .minus{
 	width: 40px;
 	background-color: #f2f2f2;
@@ -406,20 +520,7 @@ p.sedona-data{
 	border: none;
 	text-align: center;
 }
-.sedona-form .kalend{
-	margin-top: 5px;
-	margin-bottom: 5px;
-	width: 33px;
-	height: 44px;
-	background: #f2f2f2;
-	text-align: center;
-	border: none;
-}
-
-.sedona-form img{
-	
-}
-
+*/
 .sedona-form button{
 	width: 460px;
 	padding-bottom: 17px;
@@ -464,6 +565,10 @@ p.sedona-data{
 .infrastructure input,
 .hous input{
 	display: none;
+} 
+
+.infrastructure input[type="checkbox"]:hover{
+	background-image: url(../img/CHECKBOX-HV.png);
 } 
 
 .infrastructure label,

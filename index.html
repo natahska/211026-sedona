@@ -96,26 +96,33 @@
         </div>
          <form  class="sedona-form clearfix" action="#">
         <legend>ПОИСК ГОСТИНИЦЫ В седоне</legend>
-         <p ><label>Дата заезда:
-         <input type="date" value="24 Апреля 2016">
-         <button class="kalend"><img src="img/kalend.png">
-         </button>
-         </label></p><br>
-          <p class="sedona-data"><label>Дата выезда:
-          <input type="date">
-          <button class="kalend"><img src="img/kalend.png" alt="" width="22" height="22">
-          </button>
-          </label></p>
-          <p><label>Взрослые:
-          <button class="minus"> <img src="img/minus.png" alt=""></button>
-          <input type="number" min="1" max="20" step="1">
-          <button class="plus"> <img src="img/plus.png" alt=""></button>
-          </label></p>
-          <p><label>Дети:
-          <button class="minus"> <img src="img/minus.png" alt=""></button>
-          <input type="number" min="0" max="20" step="1">
-          <button class="plus"> <img src="img/plus.png" alt=""></button>
-          </label></p>
+          <div class="search">
+           <label for="aprel">Дата заезда:</label>
+            <input type="search" id="aprel" value="24 Апреля 2016">
+            <input type="submit" value="">
+          </div>
+
+          <div class="search">
+           <label for="iul">Дата выезда:</label>
+            <input type="search" id="iul" value="4 июля 2016">
+            <input type="submit" class="right" value="">
+          </div>
+          
+         
+          
+          <div class="search2">
+           <label for="aprel">ВзрослыЕ:</label>
+           <input type="submit" value="">
+            <input type="search" id="aprel" value="2">  
+            <input type="button" value="">
+          </div>
+
+          <div class="search3">
+           <label for="aprel">Дети:</label>
+           <input type="submit" value="">
+            <input type="search" id="aprel" value="0">  
+            <input type="button" value="">
+          </div>
           <button type="button">НАЙТИ</button>
         </form>
       </div>    
